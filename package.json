@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
     "webpack": "webpack --watch",
     "build": "webpack"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chris-McLeod2/food-festival.git"
@@ -18,9 +17,14 @@
   },
   "homepage": "https://github.com/Chris-McLeod2/food-festival#readme",
   "keywords": [],
-  "description": "",
   "devDependencies": {
-    "webpack": "^5.71.0",
-    "webpack-cli": "^4.9.2"
-  }
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "description": ""
 }
