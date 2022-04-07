@@ -16,7 +16,7 @@
     "@webpack-cli/serve": "^1.4.0",
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^6.0.0",
-    "webpack": "^5.37.1",
+    "webpack": "4.46.0",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^4.8.1",
@@ -25,6 +25,8 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "sw-precache-webpack-plugin": "^0.11.5",
+    "webpack-pwa-manifest": "^4.1.1"
   }
 }
